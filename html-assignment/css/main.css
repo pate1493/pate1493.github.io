@@ -1,5 +1,5 @@
 body{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 
 }
@@ -31,7 +31,7 @@ dl{
 }
 
 .site-paragraph {
-    color: rgb(28, 97, 97);
+    color: rgb(184, 12, 132);
 }
 .site-quote{
     color: rgb(255, 0, 0);
@@ -46,7 +46,7 @@ dl{
     list-style-type: square;
 }
 
-.hobby-list li:nth-child(odd) {
+.hobby-list li:nth-child(2n + 1) {
     background-color: lightgray;
 }
 
