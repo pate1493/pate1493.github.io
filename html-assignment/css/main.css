@@ -1,0 +1,77 @@
+body{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+
+}
+
+header,
+footer {
+    background-color: #3653712f;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 3px solid #ccc;
+}
+h2,h3 {
+    border-bottom: 1px solid black;
+}
+dl{
+    font-style: oblique;
+}
+dl{
+    color: darkred
+}
+/* dot means class */
+.site-title {
+    color: rgb(27, 23, 110);
+}
+
+.site-heading {
+    color: rgb(27, 23, 110);
+}
+
+.site-paragraph {
+    color: rgb(28, 97, 97);
+}
+.site-quote{
+    color: rgb(255, 0, 0);
+}
+/* hastag means id */
+#images{
+    box-shadow: 0 0 2px 1px black;
+}
+
+
+.hobby-list{
+    list-style-type: square;
+}
+
+.hobby-list li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+
+.hobby-list li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a{
+    background-color: rgb(76, 140, 119);
+    border: 4px;
+    padding: 10px 13px;
+    box-shadow: 0 0 2px 1px black;
+}
+nav a {
+    color:rgb(239, 239, 239)
+}
+nav a:hover , nav a:focus {
+    background-color: azure;
+}
