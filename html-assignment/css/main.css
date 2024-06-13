@@ -46,7 +46,7 @@ dl{
     list-style-type: square;
 }
 
-.hobby-list li:nth-child(2n + 1) {
+.hobby-list li:nth-child(odd) {
     background-color: lightgray;
 }
 
