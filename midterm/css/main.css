@@ -4,19 +4,22 @@ body{
 }
 
 .wrapper {
-    width: 75%;
+    width: 50%;
     margin: auto;
     background-color: #2bb826ab;
     padding: 20px;
+
 }
 
 header {
     position: relative;
-    margin: auto;
+    text-align: center;
 }
 
 .header-image {
     width: 100%;
+    height: 50%;
+    text-align: center;
 }
 
 h1 {
@@ -27,20 +30,16 @@ h1 {
    transform: translate(-50%,-50%);
     text-align: center;
      /* Use viewport width for responsiveness */
-    font-size: 4vw;
+    font-size: 2vw;
     color: rgb(255, 255, 255);
-   
+   margin: 0;
 }
-h2{
-    font-size: 4vw;
-    color: rgb(255, 34, 0);
-}
+
 nav li{
     /* display properties  */
     display: inline-block;
     width: 32%;
     text-align: center;
-
 }
 
 
@@ -52,36 +51,25 @@ nav ul{
 nav a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 1vw;
 }
+nav li:not(:last-child){
+    border-right: 1px solid black;
+    border-block-end-width: 2px;
+}
+
 #clearfix{
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 .imagefix {
     
-   width: 40%;
-   height: 40%;
-   margin-right: 20px;
+   width: 20%;
+   height: 20%;
+   margin-right: 10px;
    float: left;
 }
 p{
     color: brown;
-    font-size: 2vw;
-}
-#story {
-   
-    padding: 20px; 
-    margin-bottom: 20px; 
+    font-size: 1vw;
 }
 
-
-
-#story ul {
-   
-    padding-left: 20px;
-}
-
-
-#story li {
-    margin-bottom: 10px; /
-}
