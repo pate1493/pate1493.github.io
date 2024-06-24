@@ -1,12 +1,14 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(146, 185, 166);
+    background-color: #cae2b7;
+   
 }
 
 .wrapper {
     width: 50%;
     margin: auto;
-    background-color: #2bb826ab;
+    background-color: #520926;
+    color: azure;
     padding: 20px;
 
 }
@@ -32,7 +34,7 @@ h1 {
      /* Use viewport width for responsiveness */
     font-size: 2vw;
     color: rgb(255, 255, 255);
-   margin: 0;
+   margin o;
 }
 
 nav li{
@@ -50,8 +52,9 @@ nav ul{
 
 nav a {
     text-decoration: none;
-    color: black;
+    color:  rgb(238, 90, 10);
     font-size: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav li:not(:last-child){
     border-right: 1px solid black;
@@ -69,7 +72,75 @@ nav li:not(:last-child){
    float: left;
 }
 p{
-    color: brown;
-    font-size: 1vw;
+    color: rgb(238, 198, 176);
+    font-size: 1.1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: max-content;
+    min-height: max-content;
 }
+
+section li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1vw;
+    color:  rgb(207, 172, 99);
+}
+
+/* Contact Form Styles */
+#form {
+   
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 10px black;
+}
+
+.box{
+    max-width: 200%px;
+    padding: 30px;
+    margin: auto;
+    border: 1px solid #000000;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e0cdb7;
+}
+
+   
+ input[type="text"],
+ input[type="email"],
+ textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;;
+}
+
+ 
+
+label {
+    display: inline-block;
+    margin: 5px;
+}
+
+form p { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    color: #940000;
+}
+
+
+button {
+    margin-top: 10px;
+    background-color: #cdc4d5;
+    padding: 10px 20px;
+   
+
+}
+
+
+ button:hover {
+    background-color: #9791dd;
+}
+
+
+
 
