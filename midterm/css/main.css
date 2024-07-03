@@ -1,110 +1,139 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* body background color light green  */
     background-color: #cae2b7;
    
 }
-
+/* wrapper style */
 .wrapper {
+    /* wrapper width  */
     width: 50%;
+    /* center align  */
     margin: auto;
     background-color: #520926;
     color: azure;
+    /* Padding around the content  */
     padding: 20px;
 
 }
 
 header {
     position: relative;
+    /* text center in header  */
     text-align: center;
 }
-
+/* header image size  */
 .header-image {
     width: 100%;
     height: 50%;
-    text-align: center;
 }
 
+/* heading style  */
 h1 {
     position: absolute;
     top: 50%;
    left: 50%;
-   /* center the text */
+   /* center align text */
    transform: translate(-50%,-50%);
     text-align: center;
      /* Use viewport width for responsiveness */
     font-size: 2vw;
     color: rgb(255, 255, 255);
-   margin o;
+  
 }
-
+/* list style  */
 nav li{
     /* display properties  */
     display: inline-block;
+    /* Width of each item  */
     width: 32%;
+   /* center align text */
     text-align: center;
 }
 
-
+/* unordered style  */
 nav ul{
+  /* life style none  */
     list-style-type: none;
+    /* left padding remove  */
     padding-left: 0;
 }
 
 nav a {
+    /* remove underline  */
     text-decoration: none;
     color:  rgb(238, 90, 10);
+    /* Use viewport width for responsiveness */
     font-size: 1vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav li:not(:last-child){
+    /* Right border for separation */
     border-right: 1px solid black;
+    /* Bottom border width */
     border-block-end-width: 2px;
 }
 
+/* Clearfix for floats */
 #clearfix{
     margin-bottom: 2px;
 }
+
+/* Image fix styles */
 .imagefix {
     
    width: 20%;
    height: 20%;
+   /* image right margin  */
    margin-right: 10px;
+   /* image floats left  */
    float: left;
 }
+
+/* Paragraph styles */
 p{
     color: rgb(238, 198, 176);
+    /* Use viewport width for responsiveness */
     font-size: 1.1vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    max-width: max-content;
-    min-height: max-content;
+   
 }
-
+/* list style  */
 section li {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Use viewport width for responsiveness */
     font-size: 1.1vw;
     color:  rgb(207, 172, 99);
 }
 
 /* Contact Form Styles */
+
 #form {
-   
+   /* Padding around the form */
     padding: 20px;
+    /* Margin top and bottom */
     margin: 10px 0;
+    /* Rounded corners */
     border-radius: 8px;
+    /* Shadow effect */
     box-shadow: 10px black;
 }
 
+/* Box styles */
+
 .box{
-    max-width: 200%px;
+    max-width: 200%;
     padding: 30px;
     margin: auto;
+    /* black corder  */
     border: 1px solid #000000;
     color: #000000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #e0cdb7;
 }
 
-   
+  /* Input styles */
+
  input[type="text"],
  input[type="email"],
  textarea {
@@ -115,27 +144,30 @@ section li {
 }
 
  
-
+/* Label styles */
 label {
     display: inline-block;
     margin: 5px;
 }
 
+/* paragraph styles */
 form p { 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2vw;
     color: #940000;
 }
-
+/* Button styles */
 
 button {
     margin-top: 10px;
+    /* button background color */
     background-color: #cdc4d5;
     padding: 10px 20px;
    
 
 }
 
+/* change hover color */
 
  button:hover {
     background-color: #9791dd;
