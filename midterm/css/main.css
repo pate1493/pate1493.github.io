@@ -46,7 +46,7 @@ nav li{
     /* display properties  */
     display: inline-block;
     /* Width of each item  */
-    width: 32%;
+    width: 30%;
    /* center align text */
     text-align: center;
 }
@@ -69,7 +69,7 @@ nav a {
 }
 nav li:not(:last-child){
     /* Right border for separation */
-    border-right: 1px solid black;
+    border-right: 2px solid rgb(202, 2, 2);
     /* Bottom border width */
     border-block-end-width: 2px;
 }
@@ -172,7 +172,3 @@ button {
  button:hover {
     background-color: #9791dd;
 }
-
-
-
-
