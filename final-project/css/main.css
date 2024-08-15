@@ -1,0 +1,163 @@
+body {
+    font-family: 'open sans' ,sans-serif;
+    font-size: 20px;
+}
+
+@media (min-width: 760px){
+    body {
+        font-size: 20px;
+    }
+}
+    
+
+
+.wrapper.welcome {
+    max-width: 1200px;
+    padding:0 20px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    padding: 20px 0;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo  img {
+height: 150px ;
+}
+
+ nav ul  {
+   display: flex;
+   list-style: none;
+   
+}
+ nav ul li {
+    margin-left: 80 px;
+}
+
+nav ul li a{
+    
+    color: #c78c06;
+}
+
+.search button {
+    padding: 20px 50px;
+    border: 3px solid white;
+    
+    
+}
+.welcome img {
+    width: 2200px;
+    height: 600px;
+}
+.main-banner h1 p {
+    font-size: 24px;
+    color: black;
+}
+
+
+.welcome button {
+    padding: 20px 30px;
+    background-color: #c78c06;
+    border: 2px;
+
+}
+.about{
+    background-color: #ffe6ac;
+    height: 700px;
+}
+
+.service{
+    
+   
+    text-align: center;
+    background-color: #ffe6ac;
+}
+.service button{
+  padding:30PX 90PX;
+  background-color: black;
+  color:white;
+}
+
+.market{
+    
+   
+    text-align: center;
+    background-color: #ffe6ac;
+}
+.market button{
+  padding:30PX 90PX;
+  background-color: black;
+  color:white;
+}
+
+.images{
+    
+   
+    text-align: center;
+    background-color: #ffe6ac;
+}
+.images button{
+  padding:30PX 90PX;
+  background-color: black;
+  color:white;
+}
+
+.web{
+    
+   
+    text-align: center;
+    background-color: #ffe6ac;
+}
+.web button{
+  padding:30PX 90PX;
+  background-color: black;
+  color:white;
+}
+
+.printer{
+    
+   
+    text-align: center;
+    background-color: #ffe6ac;
+}
+.printer button{
+  padding:30PX 90PX;
+  background-color: black;
+  color:white;
+}
+
+.vision img{
+    width: 2200px ;
+    height: 600px;
+}
+
+.vision button{ padding:30PX 90PX;
+    background-color: black;
+    color:white;
+  }
+
+  .team {
+    background-color: #ffe6ac;
+  }
+  .team h5{
+    border-bottom: 5px solid #c78c06;
+  }
+
+ .location iframe {
+    width: 50%;
+    height: 400px;
+ }
+
+ footer{
+    background-color: black;
+    color: #c78c06;
+    text-align: left;
+    margin-left: 20px;
+ }
